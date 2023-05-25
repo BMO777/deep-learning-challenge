@@ -30,7 +30,7 @@
 
 Code for early stopping based on loss plateau sourced from:https://stackoverflow.com/questions/66530274/tricks-to-improve-cnn-model-performance
  <p float="center">
-  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model0.png" width="350" />
-  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model1.png" width="350" /> 
-  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model2.png" width="350" />
+  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model0.png" width="325" />
+  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model1.png" width="325" /> 
+  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model2.png" width="325" />
 </p>
