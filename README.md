@@ -19,7 +19,7 @@
   * Adding droput layers seemed to increase performance slightly as they are disigned to inhibit overfitting.
   * Also redusing the learning rate of the adam optimizer seemed to help
 ## Summary:
-![](https://github.com/BMO777/deep-learning-challenge/blob/master/result1.png?raw=true)
+![m](https://github.com/BMO777/deep-learning-challenge/blob/master/result1.png?raw=true)
  * overall results of the deep learning model: best accuracy: 73% 
  * Recommendation: RandomForestClassifier, as seen on the last cell of the notebook, said model was used which has the adavantage of less compute time used over the keras sequential model build but seems to have less accuracy 71.5% because of less flexibility compared to the keras model.
 
