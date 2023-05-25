@@ -7,7 +7,7 @@
   * The `APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS ,INCOME_AMT, SPECIAL_CONSIDERATIONS,& ASK_AMT` variables were the features, and they were dummied into binary form, using pandas_get_dummies function, which makes each row a unique column and files the rows of said column with 0 or 1 depending on the data/classification- similar or idential to OneHotEncoding.
   * In this notebook one could remove `SPECIAL_CONSIDERATIONS_Y` or `SPECIAL_CONSIDERATIONS_N`. One or the other but not both since it seems redundant to leave both.
 * Compiling, Training, and Evaluating the Model:
-  * 311 Neurons were used in 5 different layers with at least 2 different functions relu and sigmoid were used for the model here. 
+  * 311 Neurons were used in 5 different layers with at least 2 different functions- relu and sigmoid were used for the model here. 
   * The most optimal architecture without causing overfitting of the data is what was sought here, which seemed to be a problem because vaidation accuracy quickly became unchanging- an indication of overfitting. 
   * Also a pyramid neuron distribution shape, with 1st layer having the most neurons and outer layer having the least neurons, was advised and is utilized here.
 * Target performance of 75%+:
