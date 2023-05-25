@@ -17,7 +17,7 @@
   * Making sure a upside-down pyramid neuron distribution shape of neurons from most at the initial layer to least at the outer layer seemed to help as well.
   * The best activation function for the initial and hidden layers was relu and for the last or outer layer tahn and sigmoid activation seemed interchangeable.
   * Adding droput layers seemed to increase performance slightly as they are designed to inhibit overfitting.
-  * Also redusing the learning rate of the adam optimizer seemed to help
+  * Also redusing the learning rate based on loss plateau seemed to help
 ## Summary:
 ![](https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/result1.png)
  * Overall results of the deep learning model: 
