@@ -12,9 +12,9 @@
   * Also a pyramid neuron distribution shape, with 1st layer having the most neurons and outer layer having the least neurons, was advised and is utilized here.
 * Target performance of 75%+:
   * The model here was unable to achive the target performance unfortunately though at least three attempts were made, indicated by three h5 files of saved models. 73% seemed like a limit, though it could be because an early stopping callnack was used to limit epochs based on validation loss plateu with  low patience so the training of the model didnt usually reach the 100 epoch limit set for <p float="left">
-  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model0.png" width="325" />
-  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model1.png" width="325" /> 
-  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model2.png" width="325" />
+  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model0.png" width="320" />
+  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model1.png" width="320" /> 
+  <img src="https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/model2.png" width="320" />
 </p>
 
 * Steps taken in attempt to increase model performance:
