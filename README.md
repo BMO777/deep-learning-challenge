@@ -11,11 +11,13 @@
   * The most optimal architecture without causing overfitting of the data is what was sought here, which seemed to be a problem because vaidation accuracy quickly became unchanging- an indication of overfitting. 
   * Also a pyramid neuron distribution shape, with 1st layer having the most neurons and outer layer having the least neurons, was advised and is utilized here.
 * Target performance of 75%+:
-  * The model here was unable to achive the target performance unfortunatel thoough at least three attempts were made, indicated by three h5 files of saved models. 73% seemed the best I could achieve though it could be because an early stopping callnack was used to limit epochs based on validation loss plateu with  low patience so the training of the model didnt usually reach the 100 epoch limit set for it. 
+  * The model here was unable to achive the target performance unfortunately though at least three attempts were made, indicated by three h5 files of saved models. 73% seemed like a limit, though it could be because an early stopping callnack was used to limit epochs based on validation loss plateu with  low patience so the training of the model didnt usually reach the 100 epoch limit set for it. 
 * Steps taken in attempt to increase model performance:
   * At 1st a low number of neurons was used but this was quickly increased and seemed to impove the model accuracy to a consistent ~73% accuracy
   * Making sure a upside-down pyramid neuron distribution shape of neurons from most at the initial layer to least at the outer layer seemed to help as well.
   * The best activation function for the initial and hidden layers was relu and for the last or outer layer tahn and sigmoid activation seemed interchangeable.
+  * Adding droput layers seemed to increase performance slightly as they are disigned to inhibit overfitting.
+  * Also redusing the learning rate of the adam optimizer seemed to help
 ## Summary:
 ![](https://github.com/BMO777/deep-learning-challenge/blob/master/result1.png?raw=true)
  * overall results of the deep learning model: best accuracy: 73% 
