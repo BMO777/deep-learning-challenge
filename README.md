@@ -24,6 +24,6 @@
   * Best accuracy: ~73% 
   * Best model: Relu/Sigmoid or Tahn for last layer
   * Best # of layers: 6 including last layer
- * Recommendation: RandomForestClassifier, as seen on the last cell of the notebook, said model was used which has the adavantage of less compute time used over the keras sequential model build but seems to have less accuracy 71.5% because of less flexibility compared to the keras model.
+ * Recommendation: RandomForestClassifier, as seen on the last cell of the notebook, said model was used which has the adavantage of less compute time used over the keras sequential model build but seems to have less accuracy- 71.5%- because of less flexibility compared to the keras model.
 
 Code for early stopping based on loss plateau sourced from:https://stackoverflow.com/questions/66530274/tricks-to-improve-cnn-model-performance
