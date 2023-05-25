@@ -20,3 +20,5 @@
 ![](https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/result1.png)
  * overall results of the deep learning model: best accuracy: 73% 
  * Recommendation: RandomForestClassifier, as seen on the last cell of the notebook, said model was used which has the adavantage of less compute time used over the keras sequential model build but seems to have less accuracy 71.5% because of less flexibility compared to the keras model.
+
+Code for early stopping based on loss plateau sourced from:https://stackoverflow.com/questions/66530274/tricks-to-improve-cnn-model-performance
