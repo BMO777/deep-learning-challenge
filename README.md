@@ -17,7 +17,7 @@
   * Making sure a upside-down pyramid neuron distribution shape of neurons from most at the initial layer to least at the outer layer seemed to help as well.
   * The best activation function for the initial and hidden layers was relu and for the last or outer layer tahn and sigmoid activation seemed interchangeable.
 ## Summary:
-![](https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/result1.png)
+![](https://github.com/BMO777/deep-learning-challenge/blob/master/result1.png?raw=true)
  * overall results of the deep learning model: best accuracy: 73% 
  * Recommendation: RandomForestClassifier, as seen on the last cell of the notebook, said model was used which has the adavantage of less compute time used over the keras sequential model build but seems to have less accuracy 71.5% because of less flexibility compared to the keras model.
 
