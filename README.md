@@ -28,7 +28,7 @@
 ![](https://raw.githubusercontent.com/BMO777/deep-learning-challenge/master/result1.png)
  * Overall results of the deep learning model: 
   * Best accuracy: ~73% 
-  * Best model: Relu/Sigmoid or Tahn for last layer
+  * Best model: Relu for 1st to 2nd last layer then Sigmoid or Tahn for last layer
   * Best # of layers: 6 including last layer
  * Recommendation: RandomForestClassifier, as seen on the last cell of the notebook, said model was used which has the adavantage of less compute time used over the keras sequential model build but seems to have less accuracy- 71.5%- because of less flexibility compared to the keras model.
 
